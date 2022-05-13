@@ -56,7 +56,7 @@ header {
 
 /* Put the texts and photo on the photo */
 
-.fswdTopic {
+.fswd_topic {
     color: #ffffff;
     position: absolute;
     bottom: 101px;
@@ -67,7 +67,7 @@ header {
     bottom: 74px;
 }
 
-#devicesImg {
+#devices_img {
     width: 101px;
     position: absolute;
     bottom: 23px;
@@ -82,4 +82,62 @@ header {
 hr {
     background-color: #1a1818;
     border: 0.1px solid;
+}
+
+.content {
+    position: relative;
+    text-align: center;
+}
+
+.technology {
+    position: absolute;
+    color: #ffffff;
+    font-size: 46px;
+    top: 50px;
+    left: 47%;
+    transform: translate(-50%, -50%);
+    text-shadow: 4px 3px 2px #969595;
+}
+
+.box_container {
+    width: 100%;
+    display: inline-block;
+    padding-left: 161px;
+}
+
+.blue_box {
+    width: 307px;
+    height: 192px;
+    background-color: #235a8d;
+    float: left;
+    margin-top: 80px;
+    border: 1px solid black;
+    margin-right: 19px;
+    border-radius: 10px;
+    color: #ffffff;
+    position: relative;
+}
+
+ul {
+    list-style-type: none;
+    padding-top: 10px;
+}
+
+.blue_box>h3 {
+    font-size: 20px;
+    padding: 10px 20px;
+}
+
+.blue_box hr {
+    width: 230px;
+    margin-left: 38px;
+    color: #fff;
+}
+
+.btn_click {
+    padding: 4px;
+    position: absolute;
+    bottom: -5px;
+    left: 155px;
+    transform: translate(-50%, -50%);
 }
