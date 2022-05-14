@@ -10,6 +10,17 @@ a {
     color: #8c181b;
 }
 
+#signup {
+    font-size: 19px;
+    width: 200px;
+    float: left;
+    margin-left: 773px;
+    color: #fff;
+    padding-top: 20px;
+    padding-left: 101px;
+    text-decoration: none;
+}
+
 header {
     width: 100%;
     height: 60px;
@@ -48,7 +59,7 @@ h1 {
     margin-top: 85px;
 }
 
-#img_login {
+#img_signup {
     width: 500px;
     float: left;
     margin-top: 0px;
@@ -56,13 +67,13 @@ h1 {
     position: relative;
 }
 
-.login_container {
+.signup_container {
     width: 100%;
     display: inline-block;
     padding-left: 161px;
 }
 
-.login {
+.signup {
     width: 307px;
     height: 192px;
     float: left;
@@ -71,32 +82,22 @@ h1 {
     position: relative;
 }
 
-#login-continue {
-    color: #3d4055;
-    padding-left: 315px;
-}
-
 .input {
     margin-top: 58px;
     margin-left: 311px;
     padding: 7px;
 }
 
-.form_login {
-    margin-top: 15px;
-    padding: 10px;
-}
-
-#btn_login {
+#btn_signup {
     font-size: 16px;
     width: 111px;
     height: 50px;
-    margin-left: 407px;
     transform: translate(8px, 9px);
     border-radius: 18%;
     padding-top: 10px;
     cursor: pointer;
     border-radius: 10px;
+    margin-left: 96px;
 }
 
 .btn_submit {
