@@ -3,6 +3,7 @@
     margin: 0%;
     padding: 0%;
     font-family: "Roboto", sans-serif;
+    width: 100%;
 }
 
 header {
@@ -75,18 +76,15 @@ header {
 }
 
 .content {
-    height: 300px;
+    height: 355px;
     background-color: #1a1818;
+    position: relative;
+    text-align: center;
 }
 
 hr {
     background-color: #1a1818;
     border: 0.1px solid;
-}
-
-.content {
-    position: relative;
-    text-align: center;
 }
 
 .technology {
@@ -110,7 +108,7 @@ hr {
     height: 192px;
     background-color: #235a8d;
     float: left;
-    margin-top: 80px;
+    margin-top: 100px;
     border: 1px solid black;
     margin-right: 19px;
     border-radius: 10px;
@@ -140,4 +138,30 @@ ul {
     bottom: -5px;
     left: 155px;
     transform: translate(-50%, -50%);
+    width: 117px;
+}
+
+.footer {
+    height: 140px;
+    background-color: #000000;
+    padding-top: 13px;
+}
+
+.logo_footer {
+    padding-top: 3px;
+    padding-left: 42%;
+}
+
+.copyright {
+    color: #fff;
+    display: inline-block;
+    margin-top: 10px;
+    padding-left: 41%;
+    padding-top: 5px;
+}
+
+#rights {
+    /* we can also write: padding: 8px 0px 0px 40px; */
+    padding-top: 8px;
+    padding-left: 40px;
 }
