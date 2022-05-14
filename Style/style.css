@@ -147,7 +147,7 @@ ul {
 }
 
 .footer {
-    height: 140px;
+    height: 160px;
     background-color: #000000;
     padding-top: 13px;
 }
@@ -166,7 +166,14 @@ ul {
 }
 
 #rights {
-    /* we can also write: padding: 8px 0px 0px 40px; */
     padding-top: 8px;
     padding-left: 40px;
+    padding-bottom: 10px;
+}
+
+#footer_login {
+    color: #fff;
+    margin-top: 10px;
+    padding-left: 60px;
+    text-decoration: none;
 }
