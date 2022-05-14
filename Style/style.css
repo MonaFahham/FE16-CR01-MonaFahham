@@ -43,6 +43,11 @@ header {
     padding-top: 10px;
 }
 
+.style_btn {
+    color: #fff;
+    text-decoration: none;
+}
+
 
 /* Put the photo in the div(class="hero") and remove the top black part */
 
